@@ -21,7 +21,9 @@ function Service({ service, setTreatment }) {
                     <div class="card-actions justify-center">
 
 
-                        <label for="booking-modal"
+                        <label 
+                        
+                        htmlFor="booking-modal"
                             disabled={slots.length === 0}
                             onClick={() => setTreatment(service)}
                             class="btn bg-gradient-to-r from-indigo-200 to-cyan-400 hover:from-pink-500 hover:to-yellow-500 text-red-800">Book Appointment</label>
